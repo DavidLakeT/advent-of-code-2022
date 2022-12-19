@@ -2,7 +2,7 @@ use itertools::Itertools;
 
 pub fn solve_part1() -> String {
     let input = include_str!(
-        r"C:\Users\david\Escritorio\Programacion\Rust\advent-of-code-2022\inputs\day5.txt"
+        r"C:\Users\david\Desktop\Programacion\Rust\advent-of-code-2022\inputs\day5.txt"
     );
 
     let (stacks_input, instructions_input) = input.split_once("\n\n").unwrap();
@@ -62,7 +62,7 @@ pub fn solve_part1() -> String {
 
 pub fn solve_part2() -> String {
     let input = include_str!(
-        r"C:\Users\david\Escritorio\Programacion\Rust\advent-of-code-2022\inputs\day5.txt"
+        r"C:\Users\david\Desktop\Programacion\Rust\advent-of-code-2022\inputs\day5.txt"
     );
 
     let (stacks_input, instructions_input) = input.split_once("\n\n").unwrap();
